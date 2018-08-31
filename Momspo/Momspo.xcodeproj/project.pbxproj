@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3F239E2449290678C925C6F /* Pods_Momspo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30688F06478B1E646CF611E /* Pods_Momspo.framework */; };
+		F668319FF6A52A4E93C53CF6 /* Pods_MomspoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA0AA14D0288B8C7B138AFB /* Pods_MomspoTests.framework */; };
 		FC9A4E0B2139CFFD00DEE481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A4E0A2139CFFD00DEE481 /* AppDelegate.swift */; };
 		FC9A4E0D2139CFFD00DEE481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A4E0C2139CFFD00DEE481 /* ViewController.swift */; };
 		FC9A4E102139CFFD00DEE481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9A4E0E2139CFFD00DEE481 /* Main.storyboard */; };
@@ -27,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26557D0718CE8946A1B81AE0 /* Pods-Momspo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Momspo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Momspo/Pods-Momspo.release.xcconfig"; sourceTree = "<group>"; };
+		52EEC01CF501E3AA6B135A76 /* Pods-Momspo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Momspo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Momspo/Pods-Momspo.debug.xcconfig"; sourceTree = "<group>"; };
+		D30688F06478B1E646CF611E /* Pods_Momspo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Momspo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB5B2DD54148BAB304EB887 /* Pods-MomspoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomspoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MomspoTests/Pods-MomspoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E281C4DB1B73718F2B713D97 /* Pods-MomspoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomspoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MomspoTests/Pods-MomspoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAA0AA14D0288B8C7B138AFB /* Pods_MomspoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomspoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9A4E072139CFFD00DEE481 /* Momspo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momspo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9A4E0A2139CFFD00DEE481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC9A4E0C2139CFFD00DEE481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F239E2449290678C925C6F /* Pods_Momspo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F668319FF6A52A4E93C53CF6 /* Pods_MomspoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		168D71C4A013963E4BCEE77A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52EEC01CF501E3AA6B135A76 /* Pods-Momspo.debug.xcconfig */,
+				26557D0718CE8946A1B81AE0 /* Pods-Momspo.release.xcconfig */,
+				DFB5B2DD54148BAB304EB887 /* Pods-MomspoTests.debug.xcconfig */,
+				E281C4DB1B73718F2B713D97 /* Pods-MomspoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CB109ED746302ACFE0ECF8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30688F06478B1E646CF611E /* Pods_Momspo.framework */,
+				FAA0AA14D0288B8C7B138AFB /* Pods_MomspoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC9A4DFE2139CFFD00DEE481 = {
 			isa = PBXGroup;
 			children = (
 				FC9A4E092139CFFD00DEE481 /* Momspo */,
 				FC9A4E212139CFFD00DEE481 /* MomspoTests */,
 				FC9A4E082139CFFD00DEE481 /* Products */,
+				168D71C4A013963E4BCEE77A /* Pods */,
+				9CB109ED746302ACFE0ECF8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC9A4E272139CFFD00DEE481 /* Build configuration list for PBXNativeTarget "Momspo" */;
 			buildPhases = (
+				408EFA7C4F8F9A6B4866B377 /* [CP] Check Pods Manifest.lock */,
 				FC9A4E032139CFFD00DEE481 /* Sources */,
 				FC9A4E042139CFFD00DEE481 /* Frameworks */,
 				FC9A4E052139CFFD00DEE481 /* Resources */,
@@ -123,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC9A4E2A2139CFFD00DEE481 /* Build configuration list for PBXNativeTarget "MomspoTests" */;
 			buildPhases = (
+				872EE303615ACBC0FAB323C5 /* [CP] Check Pods Manifest.lock */,
 				FC9A4E1A2139CFFD00DEE481 /* Sources */,
 				FC9A4E1B2139CFFD00DEE481 /* Frameworks */,
 				FC9A4E1C2139CFFD00DEE481 /* Resources */,
@@ -196,6 +230,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		408EFA7C4F8F9A6B4866B377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Momspo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872EE303615ACBC0FAB323C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MomspoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC9A4E032139CFFD00DEE481 /* Sources */ = {
@@ -355,9 +428,11 @@
 		};
 		FC9A4E282139CFFD00DEE481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52EEC01CF501E3AA6B135A76 /* Pods-Momspo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J543H758C9;
 				INFOPLIST_FILE = Momspo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lilybug.Momspo;
@@ -369,9 +444,11 @@
 		};
 		FC9A4E292139CFFD00DEE481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26557D0718CE8946A1B81AE0 /* Pods-Momspo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J543H758C9;
 				INFOPLIST_FILE = Momspo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lilybug.Momspo;
@@ -383,6 +460,7 @@
 		};
 		FC9A4E2B2139CFFD00DEE481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB5B2DD54148BAB304EB887 /* Pods-MomspoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -399,6 +477,7 @@
 		};
 		FC9A4E2C2139CFFD00DEE481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E281C4DB1B73718F2B713D97 /* Pods-MomspoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
