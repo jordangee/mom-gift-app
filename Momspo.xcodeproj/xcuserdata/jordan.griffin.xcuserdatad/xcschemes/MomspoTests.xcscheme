@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1A38BE95C1A46928CBBDB9EB26A3650"
-               BuildableName = "Pods_MomspoTests.framework"
-               BlueprintName = "Pods-MomspoTests"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "FC9A4E1D2139CFFD00DEE481"
+               BuildableName = "MomspoTests.xctest"
+               BlueprintName = "MomspoTests"
+               ReferencedContainer = "container:Momspo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,16 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FC9A4E1D2139CFFD00DEE481"
+               BuildableName = "MomspoTests.xctest"
+               BlueprintName = "MomspoTests"
+               ReferencedContainer = "container:Momspo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -47,10 +57,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D1A38BE95C1A46928CBBDB9EB26A3650"
-            BuildableName = "Pods_MomspoTests.framework"
-            BlueprintName = "Pods-MomspoTests"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "FC9A4E1D2139CFFD00DEE481"
+            BuildableName = "MomspoTests.xctest"
+            BlueprintName = "MomspoTests"
+            ReferencedContainer = "container:Momspo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -62,6 +72,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FC9A4E1D2139CFFD00DEE481"
+            BuildableName = "MomspoTests.xctest"
+            BlueprintName = "MomspoTests"
+            ReferencedContainer = "container:Momspo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
